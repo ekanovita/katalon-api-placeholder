@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get Single Post</name>
+   <name>DELETE Post</name>
    <tag></tag>
-   <elementGuidId>38b59f7c-fce6-487d-a6eb-bd560b84a97b</elementGuidId>
+   <elementGuidId>3ea650b2-da41-4a75-a6a5-aa4f4c6753fa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
@@ -14,7 +14,7 @@
    <katalonVersion>8.0.1</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
+   <restRequestMethod>DELETE</restRequestMethod>
    <restUrl>${GlobalVariable.BaseURL}/posts/${id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
@@ -25,9 +25,9 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'13'</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>426cf072-ee3a-4c44-bb6b-234779e6b0da</id>
+      <id>3e4d394e-c954-46d4-b5aa-2dbce048a540</id>
       <masked>false</masked>
       <name>id</name>
    </variables>
@@ -46,13 +46,8 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
-
-
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)
-
-WS.verifyElementPropertyValue(response, 'id', '${id}')
-</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
