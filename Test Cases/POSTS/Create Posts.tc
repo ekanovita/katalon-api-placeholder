@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Posts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee32a72b-f1fe-446c-b1c7-d9bb45276205</testCaseGuid>
+   <variable>
+      <defaultValue>'test1'</defaultValue>
+      <description></description>
+      <id>00fbfc01-fa66-45d3-ac31-b62b4dce0113</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>'testing satu'</defaultValue>
+      <description></description>
+      <id>d298d4cd-4f5f-40af-98df-f32c44cde0b8</id>
+      <masked>false</masked>
+      <name>body</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>545e6a1f-352d-4409-8f0a-02cb388fa4ec</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+</TestCaseEntity>
