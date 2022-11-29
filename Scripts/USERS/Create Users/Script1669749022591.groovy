@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-println('---ID is ' + id + ' NAME is '+ name + ' USERNAME is '+username+' EMAIL is '+email)
+response = WS.sendRequest(findTestObject('USERS/Post Users', [('name') : name, ('username') : username, ('email') : email
+            , ('street') : street, ('suite') : suite, ('city') : city, ('zipcode') : zipcode, ('lat') : lat, ('lng') : lng
+            , ('phone') : phone, ('website') : website, ('companyName') : companyName, ('catchPhrase') : catchPhrase, ('bs') : bs]))
 
-response = WS.sendRequestAndVerify(findTestObject('USERS/Get Users', [('id') : id]))
-
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, 201)
 
 WS.verifyElementPropertyValue(response, 'name', name)
 
@@ -48,3 +48,4 @@ WS.verifyElementPropertyValue(response, 'company.name', companyName)
 WS.verifyElementPropertyValue(response, 'company.catchPhrase', catchPhrase)
 
 WS.verifyElementPropertyValue(response, 'company.bs', bs)
+
