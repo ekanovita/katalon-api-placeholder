@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Create Photos</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>5450e4cb-4333-487e-8395-94a43c30265d</testSuiteGuid>
+   <testCaseLink>
+      <guid>fa47adf3-3fef-4e4c-a821-023d732911ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PHOTOS/Creating Photos</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>75304a7a-421e-48a7-a3d3-3f1bf03ba81f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PostDataPhotos</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>75304a7a-421e-48a7-a3d3-3f1bf03ba81f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>albumId</value>
+         <variableId>88ec1d7f-a063-41ae-bc3e-00a1bbfbe310</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>75304a7a-421e-48a7-a3d3-3f1bf03ba81f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>579edd66-3359-4bb4-ac63-04ceb67f1e45</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>75304a7a-421e-48a7-a3d3-3f1bf03ba81f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>42dd7fdf-dc69-4820-bb9f-5be89a9fc2f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>75304a7a-421e-48a7-a3d3-3f1bf03ba81f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>thumbnailUrl</value>
+         <variableId>1158d73e-e9d9-4a65-bb9c-dbddc8e2317d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
