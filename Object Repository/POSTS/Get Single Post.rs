@@ -25,7 +25,7 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'13'</defaultValue>
+      <defaultValue>'50'</defaultValue>
       <description></description>
       <id>426cf072-ee3a-4c44-bb6b-234779e6b0da</id>
       <masked>false</masked>
@@ -46,13 +46,11 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
-
-
 WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, 'id', '${id}')
-</verificationScript>
+
+WS.verifyElementPropertyValue(response, 'body', 'error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
