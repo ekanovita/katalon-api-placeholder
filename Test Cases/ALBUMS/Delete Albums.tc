@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Albums</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09529261-dcb2-4172-82bf-fd19810f7cb2</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>3f6bd8d0-6aa8-4da1-8d08-8feb928d4b90</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>

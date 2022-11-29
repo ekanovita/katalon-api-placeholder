@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Albums</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d19de485-4104-469b-ae94-bd8897dc998c</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>eed59347-df01-46af-a3c7-330e5d2676ae</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>9bf8056c-1d8e-4376-8a6d-78ede2964e2e</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'sunt qui excepturi placeat culpa'</defaultValue>
+      <description></description>
+      <id>43538791-2ca8-4371-87a1-aa9189e34fa2</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+</TestCaseEntity>
