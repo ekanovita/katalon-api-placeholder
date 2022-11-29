@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Get Posts</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>3572dff7-1300-4758-bf2e-09845a3d077a</testSuiteGuid>
+   <testCaseLink>
+      <guid>e8ac4e2f-0adc-4c22-8bf1-83bdaf526d10</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/POSTS/Get Posts</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f02f0485-8f8f-48c7-95d2-37a355f3d9f1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/GetDataPost</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f02f0485-8f8f-48c7-95d2-37a355f3d9f1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>35c9ca7a-1929-4af6-96c9-1398225de9ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f02f0485-8f8f-48c7-95d2-37a355f3d9f1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>d4a40a87-4bf1-4ef4-87dc-819aade2f68c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f02f0485-8f8f-48c7-95d2-37a355f3d9f1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>body</value>
+         <variableId>73a92a78-a0db-423c-84c1-b3477b5069cb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f02f0485-8f8f-48c7-95d2-37a355f3d9f1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userId</value>
+         <variableId>8927a3c6-99f4-47de-b498-808134f0ef73</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
