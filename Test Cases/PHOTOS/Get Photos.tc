@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Photos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91bf01ba-caec-47aa-8114-26c76b91c42c</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>27caa948-6dc8-4c73-a4fa-c90bf077a65a</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>65e5bda1-6d6b-4a5e-bcb3-0eedcecec679</id>
+      <masked>false</masked>
+      <name>albumId</name>
+   </variable>
+   <variable>
+      <defaultValue>'accusamus beatae ad facilis cum similique qui sunt'</defaultValue>
+      <description></description>
+      <id>79571c44-740a-4a06-aa89-aaf24f6694e1</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://via.placeholder.com/600/92c952'</defaultValue>
+      <description></description>
+      <id>d42a215a-45e4-4dec-b684-66395885c297</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://via.placeholder.com/150/92c952'</defaultValue>
+      <description></description>
+      <id>ec4197e3-62c5-4e01-9251-09aaa814d952</id>
+      <masked>false</masked>
+      <name>thumbnailUrl</name>
+   </variable>
+</TestCaseEntity>

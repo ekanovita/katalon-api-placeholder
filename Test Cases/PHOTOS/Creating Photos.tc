@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Creating Photos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f20555a3-885c-4545-97f1-952da9fa6450</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88ec1d7f-a063-41ae-bc3e-00a1bbfbe310</id>
+      <masked>false</masked>
+      <name>albumId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>579edd66-3359-4bb4-ac63-04ceb67f1e45</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42dd7fdf-dc69-4820-bb9f-5be89a9fc2f7</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1158d73e-e9d9-4a65-bb9c-dbddc8e2317d</id>
+      <masked>false</masked>
+      <name>thumbnailUrl</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Get Photos</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>90837987-9fa1-4ff1-9994-519669acfafb</testSuiteGuid>
+   <testCaseLink>
+      <guid>f4446666-6bc7-43f5-a665-f5907a1ab5aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PHOTOS/Get Photos</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>98d6da2b-9d93-45eb-b8f1-a7827d8b3249</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataPhotos</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>98d6da2b-9d93-45eb-b8f1-a7827d8b3249</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>27caa948-6dc8-4c73-a4fa-c90bf077a65a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98d6da2b-9d93-45eb-b8f1-a7827d8b3249</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>albumId</value>
+         <variableId>65e5bda1-6d6b-4a5e-bcb3-0eedcecec679</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98d6da2b-9d93-45eb-b8f1-a7827d8b3249</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>79571c44-740a-4a06-aa89-aaf24f6694e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98d6da2b-9d93-45eb-b8f1-a7827d8b3249</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>d42a215a-45e4-4dec-b684-66395885c297</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98d6da2b-9d93-45eb-b8f1-a7827d8b3249</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>thumbnailUrl</value>
+         <variableId>ec4197e3-62c5-4e01-9251-09aaa814d952</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Photos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32ab66c0-ae9b-4f2e-b4d6-b0fa704955de</testCaseGuid>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>aa694087-bf63-416d-a575-3492a1cec276</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
