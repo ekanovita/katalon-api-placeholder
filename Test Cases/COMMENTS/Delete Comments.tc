@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Comments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f54fd8f7-b720-4741-910e-1ee232927fe6</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>cef3e74d-1292-444b-917a-9cf0c4538d0b</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>

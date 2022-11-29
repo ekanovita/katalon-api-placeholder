@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Comments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b63b26f-a3f4-46aa-909e-53b0a8bf8825</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>202d8156-35f8-484a-a36b-9305a981c584</id>
+      <masked>false</masked>
+      <name>postId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2eef72d5-2bbe-4fbd-9a5f-4e8f21b11ed7</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cfc0c6bf-dbb8-4dce-9e34-be97eb8046e7</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63bfac9c-03d6-4b8d-8cda-d78ee131a096</id>
+      <masked>false</masked>
+      <name>body</name>
+   </variable>
+</TestCaseEntity>
