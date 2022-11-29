@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0587bc5f-c41a-4cfe-b88e-7ad26567aa8e</testCaseGuid>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>ba568975-4ce4-4c56-92f6-a2d9041528ea</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
