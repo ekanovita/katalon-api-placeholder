@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Todos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb5a4e2a-3bcc-41b0-b2b0-a508bf15da6a</testCaseGuid>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>e7efc94d-f82b-425e-a6a8-15612d8c91e4</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>48cbc0d2-16b5-4086-ba4e-f090ff8ae02e</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>'illo est ratione doloremque quia maiores aut'</defaultValue>
+      <description></description>
+      <id>986cb2e6-a1e3-4095-a0a4-a0d6dfa991aa</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>c2bc1bdd-a1f9-4361-b19b-bae3d6f2df58</id>
+      <masked>false</masked>
+      <name>completed</name>
+   </variable>
+</TestCaseEntity>

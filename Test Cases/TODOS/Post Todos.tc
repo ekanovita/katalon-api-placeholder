@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post Todos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6da0e8a-a7b1-4b97-b908-f10ee6c4089c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>154b4d84-2e09-49bd-98a8-73987f8379f1</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a20e5fd0-5295-4c48-a9bb-dc59ae025adc</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1aa3a63-2c7e-4434-b418-d0dfd67ac765</id>
+      <masked>false</masked>
+      <name>completed</name>
+   </variable>
+</TestCaseEntity>

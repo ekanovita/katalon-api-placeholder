@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Todos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f0f47a1-98c6-47ea-a4f8-7ecc048d6c40</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>518bea95-c94c-4134-b07c-5c6e94616790</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
