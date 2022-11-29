@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/USERS/Get Users</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>80211c79-34bf-4698-91ca-00dde281084b</id>
+         <id>d56b38d2-1117-49cd-944e-452447f363e5</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,28 +26,94 @@
          <testDataId>Data Files/DataUsers</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>80211c79-34bf-4698-91ca-00dde281084b</testDataLinkId>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>id</value>
          <variableId>a2187da4-8d5b-4ac0-81f8-55fe5cdcf4f6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>80211c79-34bf-4698-91ca-00dde281084b</testDataLinkId>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>name</value>
          <variableId>59d9bfda-ddde-4bac-b36e-464a9e69a27a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>80211c79-34bf-4698-91ca-00dde281084b</testDataLinkId>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>aeb573c7-07eb-41e0-9391-77bf1ac5c4a0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>80211c79-34bf-4698-91ca-00dde281084b</testDataLinkId>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>aa881600-e3b5-4210-a26f-777774808e50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>street</value>
+         <variableId>d246bb95-71f6-4554-b956-4fa22a5df674</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>suite</value>
+         <variableId>879b858d-3d78-44cd-91c0-ef8aa8b24511</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zipcode</value>
+         <variableId>2a94d6a7-e2e7-48e6-96fd-dd28fcf37998</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>ba4b9f62-ae16-4456-8403-c904ad7a5a4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lat</value>
+         <variableId>536316ee-4c68-4c74-aa98-01a3c2e7e463</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lng</value>
+         <variableId>1f80560f-6381-4d5a-97a9-5403ef91a96f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phone</value>
+         <variableId>1dbd2688-aeae-4fff-bcff-758a9638ac97</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>website</value>
+         <variableId>098ef816-d4f2-4c03-84b9-23d8bf54bf5a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>companyName</value>
+         <variableId>7699128d-60af-4f25-9ebd-e79d90e095a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>catchPhrase</value>
+         <variableId>2c19c320-5c8d-4e20-ab04-dd7f306247a3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d56b38d2-1117-49cd-944e-452447f363e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>bs</value>
+         <variableId>40d052e6-2bbe-44b2-a464-588641fc1082</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

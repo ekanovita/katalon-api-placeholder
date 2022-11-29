@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def result = slurper.parseText(response.getResponseBodyContent())
-
+response = WS.sendRequest(findTestObject('COMMENTS/GET Comments', [('id') :  id]))
 
 WS.verifyResponseStatusCode(response, 200)
 
@@ -29,5 +28,4 @@ WS.verifyElementPropertyValue(response, 'id', id)
 WS.verifyElementPropertyValue(response, 'name', name)
 
 WS.verifyElementPropertyValue(response, 'email', email)
-
 

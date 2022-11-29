@@ -1,112 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Get Users</name>
+   <name>Create Users</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2ed202fd-d08b-44fa-9b04-472dc0631096</testCaseGuid>
+   <testCaseGuid>152d70e9-4f17-471e-b289-bccaa8ad6ea5</testCaseGuid>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>'Neymar Jr'</defaultValue>
       <description></description>
-      <id>a2187da4-8d5b-4ac0-81f8-55fe5cdcf4f6</id>
-      <masked>false</masked>
-      <name>id</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>59d9bfda-ddde-4bac-b36e-464a9e69a27a</id>
+      <id>90c1a895-71e9-47d1-ad37-e9f4cc2d9326</id>
       <masked>false</masked>
       <name>name</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Neymar'</defaultValue>
       <description></description>
-      <id>aeb573c7-07eb-41e0-9391-77bf1ac5c4a0</id>
+      <id>b2423cd3-735c-4642-a423-e907fbd89e0d</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'neymar@brazil.co.id'</defaultValue>
       <description></description>
-      <id>aa881600-e3b5-4210-a26f-777774808e50</id>
+      <id>4f043315-b49f-4226-b28d-9e9b2e982e99</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Ganda Street'</defaultValue>
       <description></description>
-      <id>d246bb95-71f6-4554-b956-4fa22a5df674</id>
+      <id>ceb76f54-a96b-4b53-bdfa-c82e497b92e6</id>
       <masked>false</masked>
       <name>street</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Apt 500'</defaultValue>
       <description></description>
-      <id>879b858d-3d78-44cd-91c0-ef8aa8b24511</id>
+      <id>319c22f5-a7de-459c-9dc1-e47dea680cb9</id>
       <masked>false</masked>
       <name>suite</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Mexico'</defaultValue>
       <description></description>
-      <id>2a94d6a7-e2e7-48e6-96fd-dd28fcf37998</id>
-      <masked>false</masked>
-      <name>zipcode</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ba4b9f62-ae16-4456-8403-c904ad7a5a4e</id>
+      <id>5c490c5c-0d2a-42e8-9fac-a16d012385ac</id>
       <masked>false</masked>
       <name>city</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'292568'</defaultValue>
       <description></description>
-      <id>536316ee-4c68-4c74-aa98-01a3c2e7e463</id>
+      <id>94201fd1-fd7b-4eb6-b96f-3d3df8035228</id>
+      <masked>false</masked>
+      <name>zipcode</name>
+   </variable>
+   <variable>
+      <defaultValue>'-37.3159'</defaultValue>
+      <description></description>
+      <id>a8948415-b8ba-41ef-b47b-be3552a018d0</id>
       <masked>false</masked>
       <name>lat</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'81.1496'</defaultValue>
       <description></description>
-      <id>1f80560f-6381-4d5a-97a9-5403ef91a96f</id>
+      <id>10d27e36-3f2f-4d02-82ca-a3ead2f775dc</id>
       <masked>false</masked>
       <name>lng</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'7829-0927'</defaultValue>
       <description></description>
-      <id>1dbd2688-aeae-4fff-bcff-758a9638ac97</id>
+      <id>58707f57-deb8-4782-8db1-206e1ac996b1</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'neymar.org'</defaultValue>
       <description></description>
-      <id>098ef816-d4f2-4c03-84b9-23d8bf54bf5a</id>
+      <id>f9dfa062-07c5-4a32-aa7e-826b15286332</id>
       <masked>false</masked>
       <name>website</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'neymar.corp'</defaultValue>
       <description></description>
-      <id>7699128d-60af-4f25-9ebd-e79d90e095a9</id>
+      <id>98ac3800-288f-443f-9a16-18200297883c</id>
       <masked>false</masked>
       <name>companyName</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'football-uni'</defaultValue>
       <description></description>
-      <id>2c19c320-5c8d-4e20-ab04-dd7f306247a3</id>
+      <id>1c36a7c8-242d-43e7-be62-99d0a69f371c</id>
       <masked>false</masked>
       <name>catchPhrase</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'back to football int'</defaultValue>
       <description></description>
-      <id>40d052e6-2bbe-44b2-a464-588641fc1082</id>
+      <id>6c45e6a2-3ad5-4bb0-8bfe-eaec9351f791</id>
       <masked>false</masked>
       <name>bs</name>
    </variable>
