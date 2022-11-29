@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST Todos</name>
+   <name>POST Albums</name>
    <tag></tag>
-   <elementGuidId>d5adfd55-3498-4ab7-8fe6-b9e6538fa12e</elementGuidId>
+   <elementGuidId>027f4bd6-4c74-4407-bced-ab847a706e43</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;: \&quot;${title}\&quot;,\n    \&quot;completed\&quot;: \&quot;${completed}\&quot;,\n    \&quot;userId\&quot;: \&quot;${userId}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot; {\n    \&quot;userId\&quot;: \&quot;${userId}\&quot;,\n    \&quot;title\&quot;: \&quot;${title}\&quot;\n  }&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -26,7 +26,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.BaseURL}/todos</restUrl>
+   <restUrl>${GlobalVariable.BaseURL}/albums</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -36,25 +36,18 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'foo'</defaultValue>
+      <defaultValue>'200'</defaultValue>
       <description></description>
-      <id>4d5d2064-ac96-44be-ba5b-4e1bf85f0573</id>
-      <masked>false</masked>
-      <name>title</name>
-   </variables>
-   <variables>
-      <defaultValue>'2'</defaultValue>
-      <description></description>
-      <id>f4ea653e-0c07-467e-bd46-a9cc7900336e</id>
+      <id>6ea7de29-4bd1-4b4e-b7e5-a4bb8c80e1d7</id>
       <masked>false</masked>
       <name>userId</name>
    </variables>
    <variables>
-      <defaultValue>'false'</defaultValue>
+      <defaultValue>'foo bar testing albums'</defaultValue>
       <description></description>
-      <id>55061b33-bcc9-4460-af5f-3066d389e98c</id>
+      <id>11cf3230-5ef1-4d26-a23b-422ed5114506</id>
       <masked>false</masked>
-      <name>completed</name>
+      <name>title</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
