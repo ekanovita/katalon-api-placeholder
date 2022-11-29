@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ed202fd-d08b-44fa-9b04-472dc0631096</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>a2187da4-8d5b-4ac0-81f8-55fe5cdcf4f6</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59d9bfda-ddde-4bac-b36e-464a9e69a27a</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aeb573c7-07eb-41e0-9391-77bf1ac5c4a0</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa881600-e3b5-4210-a26f-777774808e50</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
