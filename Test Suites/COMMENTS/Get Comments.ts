@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Get Comments</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>af8d7033-1774-46a0-bc4d-bbca1fdd6415</testSuiteGuid>
+   <testCaseLink>
+      <guid>5d29561a-da63-4a31-b49e-73854e2268b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/COMMENTS/Get Comments</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fcc04ebc-f59b-4327-bbde-57d8f403dd85</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataComments</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fcc04ebc-f59b-4327-bbde-57d8f403dd85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>4a1c10e1-491e-4999-bf10-e0940da68ffb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fcc04ebc-f59b-4327-bbde-57d8f403dd85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postId</value>
+         <variableId>24436121-4591-426b-8767-26a3a235f326</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fcc04ebc-f59b-4327-bbde-57d8f403dd85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>94a8906d-8097-4f3c-a643-19468b3a6b5d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fcc04ebc-f59b-4327-bbde-57d8f403dd85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>2b92b449-26a8-40b7-97ea-7665448ae79f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fcc04ebc-f59b-4327-bbde-57d8f403dd85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>body</value>
+         <variableId>fbe35eb2-f053-4f7d-ad59-67d6aeeea66f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

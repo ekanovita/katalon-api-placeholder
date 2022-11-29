@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Comments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>340f4f44-8215-475b-83ce-6626890684ad</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>4a1c10e1-491e-4999-bf10-e0940da68ffb</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>24436121-4591-426b-8767-26a3a235f326</id>
+      <masked>false</masked>
+      <name>postId</name>
+   </variable>
+   <variable>
+      <defaultValue>'id labore ex et quam laborum'</defaultValue>
+      <description></description>
+      <id>94a8906d-8097-4f3c-a643-19468b3a6b5d</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Eliseo@gardner.biz'</defaultValue>
+      <description></description>
+      <id>2b92b449-26a8-40b7-97ea-7665448ae79f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium'</defaultValue>
+      <description></description>
+      <id>fbe35eb2-f053-4f7d-ad59-67d6aeeea66f</id>
+      <masked>false</masked>
+      <name>body</name>
+   </variable>
+</TestCaseEntity>

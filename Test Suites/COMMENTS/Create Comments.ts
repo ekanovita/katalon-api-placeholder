@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Create Comments</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>7e87d64f-1dbf-4c3e-b561-0105c9971e23</testSuiteGuid>
+   <testCaseLink>
+      <guid>0839d0c3-f100-4029-afa3-e94edb962b12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/COMMENTS/Create Comments</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b900b540-b7ae-42ed-b08e-a1fc49a1b17f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PostDataComments</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b900b540-b7ae-42ed-b08e-a1fc49a1b17f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postId</value>
+         <variableId>202d8156-35f8-484a-a36b-9305a981c584</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b900b540-b7ae-42ed-b08e-a1fc49a1b17f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>2eef72d5-2bbe-4fbd-9a5f-4e8f21b11ed7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b900b540-b7ae-42ed-b08e-a1fc49a1b17f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>cfc0c6bf-dbb8-4dce-9e34-be97eb8046e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b900b540-b7ae-42ed-b08e-a1fc49a1b17f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>body</value>
+         <variableId>63bfac9c-03d6-4b8d-8cda-d78ee131a096</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
